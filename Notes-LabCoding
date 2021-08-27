@@ -1,0 +1,71 @@
+***Professor
+
+INPUT (ENTRADA) [1,2,3,4,5,6]
+
+PROCESSAMENTO 
+1. ler meu array, utilizando um laco
+boolean contemSeis = false;
+for(int i=0; i < array.lenght-1; i++){
+   if(array[i] == 6){
+     contemSeis = true
+    }	
+}
+System.out.println(contemSeis);
+
+OUTPUT (SAIDA) validar se o numero [6] contem no array, imprimir true senao false
+
+-----------------------------------------------------
+Karina
+
+entrada (lampadaQueimada, lampadaNova)
+
+Processamento:
+
+Se (lampada queimada == verdadeira) então
+	desligar a energia
+	girar a lampadaQueimada para a esquerda até ela soltar do encaixe
+	inserir a lampadaNova no encaixe rosquear para a direita até ficar firme
+	ligar a energia
+	retorna luzAcesa
+Se não retorna luz Acesa;
+
+--------------------------------------------------------------------
+
+https://www.computerhope.com/jargon/p/programming-language.htm
+https://www.devmedia.com.br/introducao-as-linguagens-de-programacao/25111
+http://www.digitaldev.com.br/linguagens-de-programacao/
+SouJava Meetup
+https://www.youtube.com/watch?v=Nkb_-O3460k
+https://www.youtube.com/watch?v=3ykGio7BoBk
+
+Entradas: são parametros e construtures ou métodos e funções
+Processamento é implementação dentro das classes e métodos
+saídas são o retorno dos métodos
+
+(clean code)
+Nome da variável dever descritiva (intuitiva)
+
+
+
+
+--------------------------------------
+Fazer os labs da aula que não consegui fazer
+
+-----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
