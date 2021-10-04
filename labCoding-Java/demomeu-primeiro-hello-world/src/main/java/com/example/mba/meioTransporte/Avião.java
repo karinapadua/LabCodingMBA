@@ -3,7 +3,7 @@ package com.example.mba.meioTransporte;
 public class Avião {
     private String fabricante;
     private String modelo;
-    private double comprimento;
+    private double tamanho;
     private double envergadura;
     private double pesoDecolagem;
 
@@ -15,8 +15,8 @@ public class Avião {
         this.modelo = modelo;
     }
 
-    public void setComprimento(double comprimento) {
-        this.comprimento = comprimento;
+    public void setTamanho(double tamanho) {
+        this.tamanho = tamanho;
     }
 
     public void setEnvergadura(double envergadura) {
@@ -35,8 +35,8 @@ public class Avião {
         return modelo;
     }
 
-    public double getComprimento() {
-        return comprimento;
+    public double getTamanho() {
+        return tamanho;
     }
 
     public double getEnvergadura() {

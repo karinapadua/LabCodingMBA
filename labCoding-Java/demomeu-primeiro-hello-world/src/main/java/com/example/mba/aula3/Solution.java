@@ -1,12 +1,14 @@
 package com.example.mba.aula3;
 
+import java.util.Arrays;
+
 public class Solution {
 
-    public void twoSum(int[] arr, int target) {
-        for(int i = 0; i < arr.length; i++){
-            for(int y = i + 1; y < arr.length; y++){
-                if(arr[i] + arr[y] == 16){
-                    System.out.println(arr[i] + ", "  +arr[y] );
+    public void twoSum(int[] nums, int target) {
+        for(int i = 0; i < nums.length; i++){
+            for(int y = i + 1; y < nums.length; y++){
+                if(nums[i] + nums[y] == target){
+                    System.out.println(nums[i] + ", " + nums[y] );
                     return;
                 }
             }
